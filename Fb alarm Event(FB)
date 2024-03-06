@@ -10,7 +10,7 @@ VAR_INPUT
 	xi_reset: BOOL;
 	xi_ack: BOOL;
 	
-END_VAR
+
 VAR_OUTPUT
 	wo_alarm: WORD;
 	wo_event: WORD;
