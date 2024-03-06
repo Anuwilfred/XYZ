@@ -1,0 +1,81 @@
+FUNCTION_BLOCK fb_alarmEvent
+VAR_INPUT
+	wi_input: WORD;
+	wi_set: WORD :=65535;
+	wai_delay: ARRAY[0..15] OF WORD;
+	wi_inhibit: WORD;
+	wi_inhibitJm: WORD;
+	wi_interlock: WORD;
+	wi_alarmEvent: WORD;
+	xi_reset: BOOL;
+	xi_ack: BOOL;
+	
+END_VAR
+VAR_OUTPUT
+	wo_alarm: WORD;
+	wo_event: WORD;
+	wo_alarmLa : WORD;
+	xo_buzzer: BOOL;
+	xo_ind: BOOL;
+	xo_indLa: BOOL;
+	wo_inhTot: WORD;
+END_VAR
+VAR
+	AlarmOutTemp: WORD;
+	AlarmDelayTemp: ARRAY[0..15] OF TIME;
+	
+
+	HighInterlock1: WORD;
+	HighInterlock2: WORD;
+	LowInterlock1: WORD;
+	LowInterlock2: WORD;
+	
+	TR1: TON;
+	TR2: TON;
+	TR3: TON;
+	TR4: TON;
+	TR5: TON;
+	TR6: TON;
+	TR7: TON;
+	TR8: TON;
+	TR9: TON;
+	TR10: TON;
+	TR11: TON;
+	TR12: TON;
+	TR13: TON;
+	TR14: TON;
+	TR15: TON;
+	TR16: TON;
+	AlarmOut1: TP;
+	AlarmOut2: TP;
+	AlarmOut3: TP;
+	AlarmOut4: TP;
+	AlarmOut5: TP;
+	AlarmOut6: TP;
+	AlarmOut7: TP;
+	AlarmOut8: TP;
+	AlarmOut9: TP;
+	AlarmOut10: TP;
+	AlarmOut11: TP;
+	AlarmOut12: TP;
+	AlarmOut13: TP;
+	AlarmOut14: TP;
+	AlarmOut15: TP;
+	AlarmOut16: TP;
+	x_reset1: BOOL;
+	x_reset2: BOOL;
+	x_reset3: BOOL;
+	x_reset4: BOOL;
+	x_reset5: BOOL;
+	x_reset6: BOOL;
+	x_reset7: BOOL;
+	x_reset8: BOOL;
+	x_reset9: BOOL;
+	x_reset10: BOOL;
+	x_reset11: BOOL;
+	x_reset12: BOOL;
+	x_reset13: BOOL;
+	x_reset14: BOOL;
+	x_reset15: BOOL;
+	x_reset16: BOOL;
+END_VAR
