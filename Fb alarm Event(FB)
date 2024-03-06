@@ -46,7 +46,7 @@ VAR
 	TR14: TON;
 	TR15: TON;
 	TR16: TON;
-	AlarmOut1: TP;
+	AlarmOut1: TP;// need clear history about this //
 	AlarmOut2: TP;
 	AlarmOut3: TP;
 	AlarmOut4: TP;
@@ -62,7 +62,7 @@ VAR
 	AlarmOut14: TP;
 	AlarmOut15: TP;
 	AlarmOut16: TP;
-	x_reset1: BOOL;
+	x_reset1: BOOL;// and this one 
 	x_reset2: BOOL;
 	x_reset3: BOOL;
 	x_reset4: BOOL;
