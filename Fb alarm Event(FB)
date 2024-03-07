@@ -78,4 +78,4 @@ VAR
 	x_reset14: BOOL;
 	x_reset15: BOOL;
 	x_reset16: BOOL;
-END_VAR
+END_
